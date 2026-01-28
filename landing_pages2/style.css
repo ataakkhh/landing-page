@@ -1,0 +1,153 @@
+/*reset*/
+/*
+margin:Menciptakan ruang kosong di luar elemen, memisahkan elemen dari elemen tetangganya.
+padding:Menciptakan ruang kosong di luar elemen, memisahkan elemen dari elemen tetangganya.
+box-sizing:Padding dan border dimasukkan ke dalam total lebar/tinggi, sehingga ukuran elemen tetap konsisten dan memudahkan desain responsif. 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*global*/
+/*
+Font-family: Menentukan jenis huruf (font) yang digunakan, serta menyediakan fallback (font cadangan) jika font utama tidak tersedia di perangkat pengguna.
+Color: Mengatur warna teks, seperti teks paragraf, judul, atau link
+Line-height: Mengatur jarak antar baris teks (spasi baris) untuk meningkatkan keterbacaan. 
+*/
+body {
+  font-family: arial, sans-serif;
+  color: #333;
+  line-height: 1, 6;
+}
+.container {
+  /*
+  width: Mengatur lebar tetap (px, %) suatu elemen secara eksplisit. Jika terlalu besar pada layar kecil, elemen bisa meluap (overflow).
+  max-width: Menetapkan lebar maksimum elemen, memastikan elemen tidak melebihi batas tersebut namun tetap responsif (mengecil) di layar yang lebih kecil dari nilai
+  margin: Mengatur ruang di luar elemen (jarak antar elemen). margin: auto; sering digunakan untuk menengahkan elemen secara horizontal. 
+  */
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+a {
+  /*
+  Color: Mengatur warna teks, seperti teks paragraf, judul, atau link
+  text-decoration:untuk menambah atau menghapus dekorasi garis pada teks, seperti garis bawah
+  */
+  text-decoration: none;
+  color: inherit;
+}
+
+/*header*/
+/*
+backround:untuk dapat bisa mengatur latar belakang di HTML
+Color: Mengatur warna teks, seperti teks paragraf, judul, atau link
+padding:dapat menciptakan ruang kosong dan dapat mengatur jarak internal 
+*/
+.header {
+  background: #1e3a8a;
+  color: white;
+  padding: 15px 0;
+}
+.logo {
+  /*
+  font-size:untuk menentukan ukuran teks di elemen yang ingin di atur ukurannya
+  */
+  font-size: 20px;
+}
+.nav a {
+  /*
+  margin-right:dapat memisahkan elemen satu dengan yang lain
+  */
+  margin-right: 15px;
+}
+
+/*hero*/
+/*
+backround: Memberikan warna latar belakang elemen berupa warna abu-abu muda
+text-align:mengtur penenmpatan text dan elemen inline
+padding: mengatur jarak dalam elemen
+*/
+.hero {
+  background: #e5e7eb;
+  text-align: center;
+  padding: 60px 0;
+}
+.hero h2 {
+  /*
+  margin-bottom:memberikan jarak pada bagian bawah elemen
+  */
+  margin-bottom: 15px;
+}
+
+/*button*/
+/*
+display: Mengatur bagaimana sebuah elemen ditampilkan di tata letak
+margin-top: Mengatur jarak atau ruang kosong di bagian atas sebuah elemen
+padding: mengatur jarak dalam elemen
+backround: Memberikan warna latar belakang elemen
+Color: Mengatur warna teks, seperti teks paragraf, judul, atau link
+border-radius: Membuat sudut elemen menjadi tumpul, melengkung, atau bundar,
+*/
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background: #1e3a8a;
+  color: white;
+  border-radius: 4px;
+}
+
+/*section*/
+.section {
+  /*padding: mengatur jarak dalam elemen*/
+  padding: 50px 0;
+}
+.section h2 {
+  /*
+  margin-bottom:memberikan jarak pada bagian bawah elemen
+  */
+  margin-bottom: 15px;
+}
+.light {
+  /*backround:untuk dapat bisa mengatur latar belakang di HTML*/
+  background: #f9fafb;
+}
+
+/*list*/
+.list {
+  /*margin-left:Menambahkan ruang di luar elemen sebelah kir*/
+  margin-left: 20px;
+}
+.list li {
+  /*
+  margin-bottom:memberikan jarak pada bagian bawah elemen
+  */
+  margin-bottom: 8px;
+}
+
+/*cta*/
+.cta {
+  /*backround:untuk dapat bisa mengatur latar belakang di HTML*/
+  /*Color: Mengatur warna teks, seperti teks paragraf, judul, atau link*/
+  /*text-align:mengtur penenmpatan text dan elemen inline*/
+  /*padding: mengatur jarak dalam elemen*/
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+/*footer*/
+.footer {
+  /*backround:untuk dapat bisa mengatur latar belakang di HTML*/
+  /*Color: Mengatur warna teks, seperti teks paragraf, judul, atau link*/
+  /*text-align:mengtur penenmpatan text dan elemen inline*/
+  /*padding: mengatur jarak dalam elemen*/
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
